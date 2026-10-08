@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulation Preview Draft</title>
+<style>
+  :root { --text:#1a1a1a; --bg:#ffffff; --add:#c62828; --muted:#666; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --text:#e8e8e8; --bg:#161616; --add:#ff6b6b; --muted:#999; }
+  }
+  :root[data-theme="dark"] { --text:#e8e8e8; --bg:#161616; --add:#ff6b6b; --muted:#999; }
+  body { background:var(--bg); color:var(--text); font:17px/1.6 Georgia, serif; max-width:760px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:1.8em; line-height:1.25; margin-bottom:.3em; }
+  h2 { font-size:1.25em; margin-top:1.8em; }
+  h3 { font-size:1.05em; margin-top:1.4em; }
+  .fill { color:var(--add); }
+  .legend { font:14px/1.5 system-ui, sans-serif; color:var(--muted); border-bottom:1px solid currentColor; padding-bottom:12px; margin-bottom:24px; }
+  .legend b { color:var(--add); }
+</style>
+</head>
+<body>
+
+<p class="legend">This is a first draft of a separate post that previews AgentR's interview simulation. <b>Anything in red is for you to fill in or confirm:</b> clips, screenshots, the role you used, and how you'd describe the simulation. Product details come from AgentR's Fairer Interviews and AI Cheating Prevention pages, so check them against the product as it is now.</p>
+
+<h1>Here's What an AgentR Interview Looks Like From the Inside</h1>
+<p><i>Subtitle:</i> Most people judging an AI interview have only ever seen the score at the end. This is a preview of everything that happens before it.</p>
+<p class="fill">[Author] · [Date] · [X] min read</p>
+
+<p>Ask a hiring manager what an AI interview does and you'll usually get a guess. It asks some questions. It gives a number. Somewhere in between, something happens.</p>
+<p>That "something" is the part worth seeing.</p>
+<p>So we ran a simulation. <span class="fill">[One line on what the simulation is, e.g. a staged AgentR interview for [role], with [team member] playing the candidate.]</span> This isn't the whole interview. It's a preview: the moments that show how the interview gets built, how it runs, and how an answer turns into a score.</p>
+
+<h2>It starts with the role, not a question bank</h2>
+<p>Before a single question exists, the job description is turned into the skills and tools the role actually needs. The interview is built from the job, not pulled from a library of questions someone liked.</p>
+<p class="fill">[SCREENSHOT: the role for this simulation broken down into skills and tools]</p>
+
+<h2>The interview has a shape</h2>
+<p>There's an opening round to settle in, a middle round where material appears on screen and gets discussed out loud, and a closing round. Depending on the role, there can also be a walkthrough of the candidate's own resume, a whiteboard, a coding section or a mock sales call. A typical interview runs about 25 minutes.</p>
+<p class="fill">[PREVIEW CLIP: one section from the simulation, e.g. the whiteboard or the on-screen material, around 15 to 30 seconds]</p>
+
+<h2>Every question arrives with its rubric already written</h2>
+<p>Each question comes with two to four named criteria, the signals a strong answer contains, and a time budget. All of it is written before anybody sits down, so the standard doesn't drift as the day goes on. Nobody gets an easier run for interviewing late on a Friday.</p>
+<p class="fill">[SCREENSHOT: one question from the simulation with its criteria and time budget]</p>
+
+<h2>Follow-ups build on what the candidate just said</h2>
+<p>The next question isn't fixed in advance. It builds on the candidate's own previous answer, which is where a rehearsed answer runs out and actual experience has to take over.</p>
+<p class="fill">[PREVIEW CLIP: an answer and the follow-up it led to]</p>
+
+<h2>How an answer becomes a score</h2>
+<p>Each criterion is scored from 1 to 5, separately, with a quote from the answer attached. You never have to trust a number on its own. The interview as a whole gets a score out of 100.</p>
+<p>A couple of rules matter more than they look. A question the candidate never reached scores 50, not zero, so a short interview reads as inconclusive instead of as a failure. And running long only costs a point when the answer was past one and a half times its time budget and weak anyway. Thinking slowly isn't the same as not knowing.</p>
+<p class="fill">[SCREENSHOT: the scorecard from the simulation, with a criterion score and its quote]</p>
+
+<h2>What happens when someone tries to get outside help</h2>
+<p>Interview integrity is off by default and can be turned on per organization or per role. When it's on, the candidate is told what's being watched before they agree to anything. Camera signals like a second face, a phone in shot or a tab switch are logged for the hiring team to look at. None of them changes a score.</p>
+<p class="fill">[Optional short clip, or a link to the separate post "What Happens When AI Joins the Interview?", which covers this in depth]</p>
+
+<h2>What the hiring team gets at the end</h2>
+<p>A recording you can watch at speed with the transcript beside it, scores with the evidence attached, and a shortlist. Nobody from AgentR sits in the room, and nothing gets decided for you. A person on the hiring team makes the call.</p>
+<p class="fill">[SCREENSHOT: the hiring-team view at the end of the simulation]</p>
+
+<h2>Where AgentR fits, and where it doesn't</h2>
+<p>The interview is built to answer one question well: can this person do the work the role describes, judged against a standard set before they applied.</p>
+<p>What it doesn't do: score culture fit, leadership, "ownership" or anything similarly vague. Those criteria get rejected before ranking starts. It doesn't rewrite a rubric after reading an answer, and it doesn't reject anyone on its own. This post is also a preview, not a full interview. AgentR is currently in private beta. <span class="fill">[Confirm private beta is still current.]</span></p>
+
+<h2>Questions People Ask</h2>
+<h3>Was the candidate in the simulation real?</h3>
+<p class="fill">[e.g. No. [Team member] played the candidate so we could show each part on purpose.]</p>
+<h3>How long does an AgentR interview take?</h3>
+<p>About 25 minutes for a typical interview, depending on the role and the sections it includes.</p>
+<h3>Can I see how a score was reached?</h3>
+<p>Yes. Every criterion score comes with a quote from the answer it was based on.</p>
+<h3>Does the AI make the hiring decision?</h3>
+<p>No. It scores against the rubric and hands the hiring team the evidence. A person decides.</p>
+<h3>Can I see the full simulation?</h3>
+<p class="fill">[Yes, on request / in a demo, plus the link.]</p>
+
+<p>If you've only ever seen the number at the end of an AI interview, <span class="fill">[CTA, e.g. "let's show you the rest." Get access →]</span></p>
+
+</body>
+</html>
